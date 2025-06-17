@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Floating Input Settings</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Floating Input</h1>
+
+        <div class="settings-group">
+            <label for="mode">Operation Mode:</label>
+            <select id="mode">
+                <option value="habit">Habit Mode (Simple)</option>
+                <option value="advanced">Advanced Mode</option>
+                <option value="off">Disabled</option>
+            </select>
+        </div>
+
+        <div class="settings-group">
+            <label for="position">Default Position:</label>
+            <select id="position">
+                <option value="top">Top Center</option>
+                <option value="center">Screen Center</option>
+                <option value="bottom">Bottom Center</option>
+            </select>
+        </div>
+
+        <div class="settings-group">
+            <label for="width">Box Width:</label>
+            <input type="text" id="width" placeholder="600px">
+        </div>
+
+        <div class="settings-group">
+            <label for="height">Box Height:</label>
+            <input type="text" id="height" placeholder="60px">
+        </div>
+
+        <div class="settings-group checkbox-group">
+            <input type="checkbox" id="animation" checked>
+            <label for="animation">Enable Animations</label>
+        </div>
+
+        <button id="save">Save Settings</button>
+
+        <div class="footer">
+            <p>Press ESC to close the floating input</p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
