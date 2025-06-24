@@ -1,0 +1,16 @@
+#floatinput-overlay {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 120px;
+    z-index: 9999;
+    background: white;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    resize: none;
+}
