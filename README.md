@@ -1,10 +1,11 @@
 #  Floating Input Extension – Custom Typing Experience Anywhere
 
-A **Firefox extension** designed to improve user typing experience by bringing the input box where your eyes are — not stuck at the bottom of the screen.
-
->  Developed under the banner of **GDSC IIT Roorkee**
+Name - Aryan
+En.no - 23112022
+department - Chemical Engineering ( 3rd year )
 
 ---
+
 
 ##  Features
 
